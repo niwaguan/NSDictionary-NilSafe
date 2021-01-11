@@ -104,7 +104,7 @@
 }
 
 - (void)gl_setObject:(id)obj forKeyedSubscript:(id<NSCopying>)key {
-    if (!key || !obj) {
+    if (!key) {
         return;
     }
     [self gl_setObject:obj forKeyedSubscript:key];
